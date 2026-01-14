@@ -1,4 +1,4 @@
-3.	pipeline {
+pipeline {
     agent any
 stages {
     // NEW STAGE: Pull the source code first!
