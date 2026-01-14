@@ -6,7 +6,7 @@ stages {
         steps {
             echo "Pulling code from GitHub..."
             // This 'git' step is provided by the Git Plugin
-            git url: 'https://github.com/jenkins-docs/simple-java-maven-app.git', branch: 'main'
+            git url: 'https://github.com/Samadhan360/three-tier-architecture-aws.git', branch: 'main'
         }
     }
 
