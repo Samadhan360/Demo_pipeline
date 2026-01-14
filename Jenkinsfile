@@ -14,9 +14,7 @@ stages {
         steps {
             // Let's run a real command now that we have the code
             // 'sh' is a step for running a shell command on Linux/macOS
-            sh 'ls -la'
-            sdssdsd
-            trtrtt
+            sh "ls -la"
             echo "In a real build, we'd run 'mvn clean install'."
         }
     }
